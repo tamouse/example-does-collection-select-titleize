@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Stuff:
+  = @my_thing.stuff
+
+= link_to 'Edit', edit_my_thing_path(@my_thing)
+\|
+= link_to 'Back', my_things_path
